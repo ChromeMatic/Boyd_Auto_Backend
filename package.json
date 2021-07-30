@@ -1,0 +1,25 @@
+{
+  "name": "boyd-auto-backend",
+  "version": "1.0.0",
+  "description": "backend dependencies for the boyd-auto forntend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChromeMatic/Boyd_Auto_Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChromeMatic/Boyd_Auto_Backend/issues"
+  },
+  "homepage": "https://github.com/ChromeMatic/Boyd_Auto_Backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.1"
+  }
+}
