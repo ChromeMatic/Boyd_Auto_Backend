@@ -2,7 +2,7 @@
   "name": "boyd-auto-backend",
   "version": "1.0.0",
   "description": "backend dependencies for the boyd-auto forntend",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
