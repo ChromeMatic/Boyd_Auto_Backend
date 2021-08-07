@@ -8,8 +8,9 @@ const VehicleImageSchema = new Schema(
           type:String,
           required:true
         },
+        desc:String,
         Image:{
-            type:Image,
+           type: Buffer,
             required:true
         }
     }

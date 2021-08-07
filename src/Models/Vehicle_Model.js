@@ -7,7 +7,9 @@ const VehicleSchema = new Schema(
         Name:String,
         Type:String,
         gasType:String,
-        Year:{type:Number}
+        Year:{type:Number},
+        Description:String,
+        Price:String
     }
 );
 
